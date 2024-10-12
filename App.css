@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+}
+
+.board {
+  display: inline-block;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
